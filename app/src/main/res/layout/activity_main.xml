@@ -27,7 +27,7 @@
             android:id="@+id/but3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fhird"/>
+            android:text="Third"/>
 
     </LinearLayout>
     <FrameLayout
@@ -39,15 +39,14 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:background="#ff0000">
+        </LinearLayout>
             <LinearLayout
                 android:id="@+id/Line2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:background="#ffff00"
-                android:visibility="invisible">
-
-            </LinearLayout>
+                android:visibility="invisible"/>
             <LinearLayout
                 android:id="@+id/Line3"
                 android:layout_width="match_parent"
@@ -57,7 +56,7 @@
                 android:visibility="invisible">
 
             </LinearLayout>
-        </LinearLayout>
+
     </FrameLayout>
 
 </LinearLayout>
